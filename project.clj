@@ -14,7 +14,9 @@
                  [org.clojure/java.data "0.1.1"]
                  [net.bytebuddy/byte-buddy "1.10.7"]
                  [lein-jdk-tools "0.1.1"]
-                 [nrepl "0.6.0"]]
+                 [clj-commons/pomegranate "1.2.1"]
+                 [nrepl "1.0.0"]
+                 [cider/cider-nrepl "0.29.0"]]
   :min-lein-version "2.0.0"
   :source-paths ["src/clojure"]
   :java-source-paths ["src/java"]
